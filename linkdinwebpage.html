@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .sdiv1 {
+            height:100px;
+            width:100%;
+          
+        }
+        .sdiv1 img{
+            height: 100px;
+            width:130px;
+            position: absolute;
+            left:150px;
+            cursor: pointer;
+           
+        }
+        .sdiv2 :hover{
+            color: black;
+        }
+        .sdiv2{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            cursor: pointer;
+
+        }
+        .sdiv2{
+            position:absolute ;
+            top: 10px;
+            left:600px;
+            font-size: 14px;
+        }
+        .btn1{
+            height: 50px;
+            width: 100px;
+            border-radius: 30px;
+            color: blue;
+            border: blue 1px solid;
+            font-size: medium;
+            background-color: white;
+            cursor: pointer;
+        }
+        .btn1 :hover{
+            background-color: rgb(58, 151, 188);
+        }
+        #sam{
+            color: #4b4c4e;
+            font-family:  Arial, Helvetica, sans-serif;
+            font-weight: 0px;
+            
+        }
+        .sammu{
+            height: 300px;
+            width:600px;
+            color: #b24020;
+            font-size: 56px;
+            font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+            font-weight: 100;
+             position:absolute;
+             left: 150px;
+             top:80px;
+       
+        }
+        .doremon{
+            position: absolute;
+            right:50px;
+           top:150px;
+
+        }
+        input {
+           padding: 23px;
+           /* margin-bottom: 20px; */
+           border: 1px solid black;
+           border-radius: 8px;
+           width: 350px;
+             /* background-color: black; */
+            color:black;
+        }
+        .loginform{
+            color: #323d48;
+            font-size: 16px;
+            position: absolute;
+            top:230px;
+           
+        }
+        .btn2{
+            height: 50px;
+            width:400px;
+            color:white;
+            background-color: #0a66c2;
+            text-align: center;
+            border-radius: 30px;
+            font-size: medium;
+            border: none;
+            cursor: pointer;
+        }
+        #pipe{
+            font-weight: 100;
+        }
+        #hr1{
+    width: 170px;
+    position: relative;
+   right: 135px;
+}
+
+#hr2{
+    width: 180px;
+    position: relative;
+    bottom:10px;
+    left: 75px;
+
+}
+
+small{
+    font-size:medium;
+    position: relative;
+    left: 165px;
+     bottom:30px;
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="Samreen">
+        <div class="sdiv1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.xHACKpJjUVRiAVy69AUqRgHaEK&pid=Api&rs=1&c=1&qlt=95&w=187&h=104" alt="">  
+        </div>
+        <div class="sdiv2" id="sam">
+            <p><i class="fa-regular fa-newspaper" ></i>
+                <br>
+                Articles </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <P><i class="fa-solid fa-person" ></i> <br> People</P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <P><i class="fa-brands fa-square-youtube" ></i><br> learning</P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <P><i class="fa-solid fa-suitcase" ></i><br>job</P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h1 id="pipe">|</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <P><i class="fa-solid fa-laptop" ></i><br> Get the app</P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h1 id="pipe">|</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <P><br> Join now</P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            <button class="btn1">Sign in</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="sammu"><p>Discover what your network can do for you</p>
+            <div class="loginform">
+                <form action="#">
+                    <label for="username"></label>
+                   <h5>Email or Phone</h5>
+                    <input type="email" id="username" name="username" required >
+                    <label for="password"></label>
+                    <h5>password</h5>
+                    <input type="password" id="password" name="password" required >
+                    <h4 style="color:#0a66c2;">Forget password ?</h4>
+                </form>
+                <button class="btn2">sign in</button>
+                <hr id="hr1">
+                <hr id="hr2">
+                <small>or</small>
+                <p style="font-size: small;" id="text">By clicking Continue, you agree to LinkedIn’s User Agreement, Privacy </p>
+               <a href=""> <p style="color: #0f7be8; font-size: small;" id="text">Policy, and Cookie Policy.</p></a>
+            </div>
+           
+        </div>
+
+        <div class="doremon">
+             <img src="	https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4" style="width: 700px;">
+            <!-- <img src="https://media.licdn.com/media//AAYAAgSrAAgAAQAAAAAAAGt1z99z8nZESwyWaiWfWJH2Lg.png" style="width:600px ;" height="550px;"> -->
+        </div>
+    </div>
+</body>
+</html>
